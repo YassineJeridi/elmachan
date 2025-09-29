@@ -1,0 +1,140 @@
+{
+    "messages": [
+        {
+            "text": "Every moment with you feels like a dream come true. You light up my world in ways I never thought possible. ❤️",
+            "date": "Every day with you"
+        },
+        {
+            "text": "Your smile is my favorite sight, your laugh is my favorite sound, and being with you is my favorite feeling. 💕",
+            "date": "Always and forever"
+        },
+        {
+            "text": "Thank you for being the most amazing girlfriend anyone could ask for. You make every day special! 🥰",
+            "date": "From my heart"
+        },
+        {
+            "text": "I fall in love with you more and more each day. Happy birthday to my everything! 🎂",
+            "date": "Today and always"
+        },
+        {
+            "text": "You are my sunshine on cloudy days, my peace in chaotic moments, and my home wherever we are. 🏠💖",
+            "date": "Forever yours"
+        },
+        {
+            "text": "With you, every ordinary day becomes an extraordinary adventure. Here's to many more birthdays together! 🎈",
+            "date": "Birthday wishes"
+        }
+    ],
+    "photos": [
+        {
+            "src": "assets/13.png",
+            "caption": "I love being with you more than anything 💖"
+        },
+        {
+            "src": "assets/15.jpg",
+            "caption": "I enjoy my time with you so much 🥰"
+        },
+        {
+            "src": "assets/img1.png",
+            "caption": "When I'm with you, everything feels perfect ✨"
+        },
+        {
+            "src": "assets/img10.png",
+            "caption": "I love being with you every single moment 💕"
+        },
+        {
+            "src": "assets/img11.png",
+            "caption": "When I'm with you, time stands still ⏰💗"
+        },
+        {
+            "src": "assets/img12.jpg",
+            "caption": "I enjoy my time with you beyond words 🌟"
+        },
+        {
+            "src": "assets/img12.png",
+            "caption": "I love being with you in every season 🌸"
+        },
+        {
+            "src": "assets/img14.jpg",
+            "caption": "When I'm with you, I feel complete 💫"
+        },
+        {
+            "src": "assets/img16.jpg",
+            "caption": "I enjoy my time with you always 😊💖"
+        },
+        {
+            "src": "assets/img17.jpg",
+            "caption": "I love being with you, my darling 🌹"
+        },
+        {
+            "src": "assets/img18.png",
+            "caption": "When I'm with you, I'm truly happy 😍"
+        },
+        {
+            "src": "assets/img19.jpg",
+            "caption": "I enjoy my time with you endlessly 💐"
+        },
+        {
+            "src": "assets/img2.png",
+            "caption": "I love being with you more each day 📈💕"
+        },
+        {
+            "src": "assets/img20.png",
+            "caption": "When I'm with you, magic happens ✨💫"
+        },
+        {
+            "src": "assets/img21.png",
+            "caption": "I enjoy my time with you so deeply 🌊💗"
+        },
+        {
+            "src": "assets/img3.png",
+            "caption": "I love being with you, my heart 💓"
+        },
+        {
+            "src": "assets/img4.png",
+            "caption": "When I'm with you, dreams come true 🌈"
+        },
+        {
+            "src": "assets/img5.png",
+            "caption": "I enjoy my time with you tremendously 🎉💖"
+        },
+        {
+            "src": "assets/img6.png",
+            "caption": "I love being with you in every way 💞"
+        },
+        {
+            "src": "assets/img7.png",
+            "caption": "When I'm with you, life is beautiful 🌺"
+        },
+        {
+            "src": "assets/img8.png",
+            "caption": "I enjoy my time with you completely 🌟💕"
+        },
+        {
+            "src": "assets/img9.png",
+            "caption": "I love being with you forever and always 💘"
+        }
+    ],
+    "videos": [
+        {
+            "src": "assets/video1.mp4",
+            "caption": "When I'm with you, every moment is precious 🎬💖"
+        },
+        {
+            "src": "assets/video2.mov",
+            "caption": "I love being with you in motion 🎭💕"
+        },
+        {
+            "src": "assets/video2.mp4",
+            "caption": "I enjoy my time with you captured forever 📹✨"
+        },
+        {
+            "src": "assets/video3.mp4",
+            "caption": "When I'm with you, life becomes a movie 🎪💗"
+        },
+        {
+            "src": "assets/video4.mp4",
+            "caption": "I love being with you in every frame 🎨💘"
+        }
+    ]
+}

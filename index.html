@@ -4,393 +4,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Elma Chan ❤️</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <title>Happy Birthday My Love! 🎂💖</title>
 
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(45deg, #ff6b6b, #ee5a6f, #ff8e53, #ff6b9d);
-            background-size: 400% 400%;
-            animation: gradientShift 8s ease infinite;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-        }
+    <!-- Enhanced Meta Tags -->
+    <meta name="description" content="A magical birthday celebration website filled with love, memories, and joy">
+    <meta name="theme-color" content="#e91e63">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-        @keyframes gradientShift {
-            0% {
-                background-position: 0% 50%;
-            }
+    <!-- Enhanced Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-            50% {
-                background-position: 100% 50%;
-            }
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        .container {
-            text-align: center;
-            color: white;
-            z-index: 10;
-            position: relative;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 3rem;
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-            max-width: 700px;
-        }
-
-        .card-header {
-            font-size: 1.5rem;
-            font-weight: normal;
-            margin-bottom: 1.5rem;
-            opacity: 0.9;
-            animation: fadeInUp 1.5s ease-out;
-        }
-
-        .image-container {
-            margin: 1.5rem 0;
-            animation: fadeInUp 2s ease-out 0.5s both;
-        }
-
-        .profile-image {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            border: 4px solid rgba(255, 255, 255, 0.8);
-            box-shadow: 0 0 30px rgba(255, 23, 68, 0.4);
-            object-fit: cover;
-            animation: imageGlow 3s ease-in-out infinite;
-            transition: transform 0.3s ease;
-        }
-
-        .profile-image:hover {
-            transform: scale(1.1);
-        }
-
-        @keyframes imageGlow {
-
-            0%,
-            100% {
-                box-shadow: 0 0 30px rgba(255, 23, 68, 0.4);
-                border-color: rgba(255, 255, 255, 0.8);
-            }
-
-            50% {
-                box-shadow: 0 0 40px rgba(255, 23, 68, 0.8);
-                border-color: rgba(255, 23, 68, 0.8);
-            }
-        }
-
-        .main-message {
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            animation: fadeInUp 2s ease-out 0.7s both;
-            color: #ffe0e0;
-        }
-
-        .name-highlight {
-            color: #ff1744;
-            text-shadow: 0 0 15px rgba(255, 23, 68, 0.8);
-            font-size: 2.8rem;
-        }
-
-        .sub-message {
-            font-size: 1.3rem;
-            margin-bottom: 1.5rem;
-            opacity: 0.95;
-            line-height: 1.7;
-            animation: fadeInUp 2s ease-out 1s both;
-        }
-
-        .heart {
-            font-size: 3.5rem;
-            color: #ff1744;
-            animation: heartbeat 1.5s ease-in-out infinite;
-            display: inline-block;
-            text-shadow: 0 0 20px rgba(255, 23, 68, 0.8);
-            margin: 1rem 0;
-        }
-
-        @keyframes heartbeat {
-            0% {
-                transform: scale(1);
-            }
-
-            25% {
-                transform: scale(1.1);
-            }
-
-            50% {
-                transform: scale(1.2);
-            }
-
-            75% {
-                transform: scale(1.1);
-            }
-
-            100% {
-                transform: scale(1);
-            }
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .floating-hearts {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            top: 0;
-            left: 0;
-        }
-
-        .floating-heart {
-            position: absolute;
-            font-size: 2rem;
-            color: rgba(255, 255, 255, 0.3);
-            animation: float 8s linear infinite;
-            pointer-events: none;
-        }
-
-        @keyframes float {
-            0% {
-                transform: translateY(100vh) rotate(0deg);
-                opacity: 1;
-            }
-
-            100% {
-                transform: translateY(-100px) rotate(360deg);
-                opacity: 0;
-            }
-        }
-
-        .sparkle {
-            position: absolute;
-            width: 4px;
-            height: 4px;
-            background: white;
-            border-radius: 50%;
-            animation: sparkle 2s linear infinite;
-        }
-
-        @keyframes sparkle {
-
-            0%,
-            100% {
-                opacity: 0;
-                transform: scale(0);
-            }
-
-            50% {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-
-        .love-quote {
-            font-size: 1.1rem;
-            font-style: italic;
-            margin-top: 1.5rem;
-            opacity: 0.85;
-            animation: fadeInUp 2s ease-out 1.3s both;
-        }
-
-        .pulse-border {
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            animation: pulseBorder 3s ease-in-out infinite;
-        }
-
-        @keyframes pulseBorder {
-
-            0%,
-            100% {
-                border-color: rgba(255, 255, 255, 0.5);
-            }
-
-            50% {
-                border-color: rgba(255, 23, 68, 0.8);
-            }
-        }
-
-        .placeholder-text {
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 1rem;
-            font-style: italic;
-            margin-top: 1rem;
-        }
-
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .container {
-                margin: 2rem;
-                padding: 2rem;
-            }
-
-            .profile-image {
-                width: 150px;
-                height: 150px;
-            }
-
-            .main-message {
-                font-size: 2rem;
-            }
-
-            .name-highlight {
-                font-size: 2.3rem;
-            }
-
-            .sub-message {
-                font-size: 1.2rem;
-            }
-
-            .heart {
-                font-size: 3rem;
-            }
-        }
-    </style>
+    <!-- Styling -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="floating-hearts" id="floatingHearts"></div>
+    <!-- Enhanced Floating Hearts -->
+    <div class="floating-hearts">
+        <div class="heart">💖</div>
+        <div class="heart">💕</div>
+        <div class="heart">❤️</div>
+        <div class="heart">💗</div>
+        <div class="heart">💘</div>
+        <div class="heart">💝</div>
+    </div>
 
-    <div class="container pulse-border">
-        <p class="card-header">💌 A Special Card For 💌</p>
+    <!-- Particles Container -->
+    <div class="particles" id="particles"></div>
 
-        <div class="image-container">
-            <!-- Replace 'elma_photo.jpg' with the actual filename of her photo -->
-            <img src="./elmachan.jpg" alt="Elma Chan" class="profile-image" id="profileImage">
-            <p class="placeholder-text">
-            </p>
+    <div class="container">
+        <!-- Enhanced Birthday Message -->
+        <div class="birthday-message" id="birthdayMessage">
+            <!-- Sparkle Container -->
+            <div class="sparkle-container">
+                <div class="sparkle">✨</div>
+                <div class="sparkle">⭐</div>
+                <div class="sparkle">🌟</div>
+                <div class="sparkle">✨</div>
+                <div class="sparkle">⭐</div>
+                <div class="sparkle">🌟</div>
+            </div>
+
+            <div class="birthday-content">
+                <h1 class="main-title">
+                    <span class="word special">Happy</span>
+                    <span class="word special">Birthday</span>
+                    <span class="word special">Beautiful</span>
+                    <span class="celebration">🎂</span>
+                </h1>
+
+                <div class="hearts-row">
+                    <span class="heart-emoji">💖</span>
+                    <span class="heart-emoji">💕</span>
+                    <span class="heart-emoji">❤️</span>
+                    <span class="heart-emoji">💗</span>
+                    <span class="heart-emoji">💘</span>
+                </div>
+
+                <p class="intro-text">
+                    <i class="fas fa-heart"></i>
+                    Tap to unlock our magical love story
+                    <i class="fas fa-heart"></i>
+                </p>
+
+                <div class="click-indicator">
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring pulse-ring-2"></div>
+                </div>
+            </div>
         </div>
 
-        <h1 class="main-message">The Most Perfect Girlfriend Ever<br>
-            <span class="name-highlight">Elma Chan</span>
-        </h1>
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <!-- Enhanced Header -->
+            <header class="header">
+                <h2 class="subtitle">
+                    <span class="word" data-delay="0">Our</span>
+                    <span class="word" data-delay="200">Beautiful</span>
+                    <span class="word" data-delay="400">Love</span>
+                    <span class="word" data-delay="600">Story</span>
+                    <span class="heart-decoration">💕</span>
+                </h2>
 
-        <div class="heart" id="animatedHeart">❤️</div>
+                <div class="header-decoration">
+                    <div class="line"></div>
+                    <div class="heart-center">💖</div>
+                    <div class="line"></div>
+                </div>
 
-        <p class="sub-message">
-            You are absolutely <strong>the most perfect girlfriend ever</strong>!<br>
-            Every day with you feels like a beautiful dream come true.<br>
-            Your smile lights up my world, and your love fills my heart with endless joy.<br>
-            <strong>Elma chan</strong>, you make everything in my life more beautiful! 💕
-        </p>
+                <p class="header-subtitle">Every moment with you is a treasure 💎</p>
+            </header>
 
-        <div class="love-quote">
-            "You are one in a million, and I'm the luckiest person alive to call you mine" ✨
+            <!-- Love Messages Section -->
+            <section class="messages-section">
+                <div class="section-header">
+                    <h3><i class="fas fa-heart"></i> Love Messages</h3>
+                    <div class="section-decoration">
+                        <span>💌</span>
+                        <span>💕</span>
+                        <span>💖</span>
+                    </div>
+                </div>
+                <div class="messages-container" id="messagesContainer">
+                    <!-- Messages will be loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- Photo Gallery Section -->
+            <section class="gallery-section">
+                <div class="section-header">
+                    <h3><i class="fas fa-camera"></i> Our Memories</h3>
+                    <div class="section-decoration">
+                        <span>📸</span>
+                        <span>✨</span>
+                        <span>💖</span>
+                    </div>
+                </div>
+                <div class="photo-gallery" id="photoGallery">
+                    <!-- Photos will be loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- Videos Section with Mobile Swipe -->
+            <section class="videos-section">
+                <div class="section-header">
+                    <h3><i class="fas fa-video"></i> Our Video Moments</h3>
+                    <div class="section-decoration">
+                        <span>🎬</span>
+                        <span>🎭</span>
+                        <span>🌟</span>
+                    </div>
+                </div>
+
+                <!-- Mobile Video Carousel -->
+                <div class="video-carousel-container">
+                    <div class="video-carousel" id="videoCarousel">
+                        <!-- Videos will be loaded dynamically -->
+                    </div>
+                    <div class="carousel-indicators" id="carouselIndicators"></div>
+                    <div class="carousel-nav">
+                        <button class="carousel-btn prev" id="prevBtn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-btn next" id="nextBtn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <p class="swipe-hint">👈 Swipe to see more videos 👉</p>
+                </div>
+
+                <!-- Desktop Video Grid -->
+                <div class="videos-container desktop-only" id="videosContainer">
+                    <!-- Videos will be loaded dynamically for desktop -->
+                </div>
+            </section>
+
+            <!-- Final Section -->
+            <section class="final-section">
+                <div class="celebration-icons">
+                    <div class="icon">🎉</div>
+                    <div class="icon">🎂</div>
+                    <div class="icon">🎈</div>
+                    <div class="icon">🎁</div>
+                    <div class="icon">🌟</div>
+                </div>
+
+                <div class="final-message">
+                    <h3>You Make Every Day Special! 🌈</h3>
+                    <p>Thank you for being you – the most amazing person I know.</p>
+                    <p class="special-message">Here's to many more birthdays together, my love!</p>
+
+                    <div class="final-hearts">
+                        <span>💖</span>
+                        <span>💕</span>
+                        <span>❤️</span>
+                        <span>💗</span>
+                        <span>💘</span>
+                        <span>💝</span>
+                        <span>💞</span>
+                    </div>
+
+                    <div class="birthday-wish">
+                        <p>Happy Birthday, Beautiful! 🎂✨</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Enhanced Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-container">
+            <div class="heart-loader">
+                <div class="heart-main">💖</div>
+                <div class="heart-pulse"></div>
+            </div>
+            <div class="main-loading-text">Preparing something special...</div>
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="sub-loading-text">Filled with love and memories 💕</div>
         </div>
     </div>
 
-    <script>
-        // Create floating hearts animation
-        function createFloatingHeart() {
-            const heart = document.createElement('div');
-            heart.classList.add('floating-heart');
-            heart.innerHTML = '💖';
+    <!-- Music Control -->
+    <div class="music-control" id="musicControl" title="Toggle Background Music">
+        🎵
+    </div>
 
-            heart.style.left = Math.random() * 100 + '%';
-            heart.style.animationDuration = (Math.random() * 3 + 5) + 's';
-            heart.style.animationDelay = Math.random() * 2 + 's';
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="assets/background-music.mp3" type="audio/mpeg">
+    </audio>
 
-            document.getElementById('floatingHearts').appendChild(heart);
-
-            setTimeout(() => {
-                heart.remove();
-            }, 8000);
-        }
-
-        // Create sparkle effects
-        function createSparkle() {
-            const sparkle = document.createElement('div');
-            sparkle.classList.add('sparkle');
-
-            sparkle.style.left = Math.random() * window.innerWidth + 'px';
-            sparkle.style.top = Math.random() * window.innerHeight + 'px';
-            sparkle.style.animationDelay = Math.random() * 2 + 's';
-
-            document.body.appendChild(sparkle);
-
-            setTimeout(() => {
-                sparkle.remove();
-            }, 2000);
-        }
-
-        // Heart click effect
-        document.getElementById('animatedHeart').addEventListener('click', function () {
-            this.style.animation = 'none';
-            setTimeout(() => {
-                this.style.animation = 'heartbeat 0.5s ease-in-out 3';
-            }, 100);
-
-            for (let i = 0; i < 5; i++) {
-                setTimeout(() => createFloatingHeart(), i * 100);
-            }
-        });
-
-        // Profile image click effect
-        document.getElementById('profileImage').addEventListener('click', function () {
-            // Create hearts around the image when clicked
-            for (let i = 0; i < 8; i++) {
-                setTimeout(() => createFloatingHeart(), i * 150);
-            }
-        });
-
-        // Error handling for missing image
-        document.getElementById('profileImage').onerror = function () {
-            this.style.display = 'none';
-            document.querySelector('.placeholder-text').innerHTML =
-                '📷 Please add Elma\'s photo by replacing \'elma_photo.jpg\' with her actual photo filename';
-        };
-
-        // Start animations
-        setInterval(createFloatingHeart, 1000);
-        setInterval(createSparkle, 500);
-
-        // Add hover effects
-        const container = document.querySelector('.container');
-        container.addEventListener('mouseenter', function () {
-            this.style.transform = 'scale(1.02)';
-            this.style.transition = 'transform 0.3s ease';
-        });
-
-        container.addEventListener('mouseleave', function () {
-            this.style.transform = 'scale(1)';
-        });
-
-        // Add random color variations to floating hearts
-        setInterval(() => {
-            const hearts = document.querySelectorAll('.floating-heart');
-            hearts.forEach(heart => {
-                const colors = ['💖', '💕', '💗', '💝', '💘'];
-                heart.innerHTML = colors[Math.floor(Math.random() * colors.length)];
-            });
-        }, 2000);
-    </script>
+    <!-- Enhanced JavaScript -->
+    <script src="script.js"></script>
 </body>
 
 </html>
